@@ -1,0 +1,140 @@
+body{
+	overflow-x: hidden;
+	background-color: #F6F6F6;
+}
+
+.center{
+	text-align: center;
+}
+
+
+.navbar{
+	background-color: #F6F6F6;
+	height: 70px;
+	font-size: 1.5em;
+	border-radius: 0px;
+	border-color: black;
+	border-width: 0; 
+}
+
+.logo{
+	width:70px;
+	height: 70px;
+}
+
+.navbar-default .navbar-header .navbar-brand{
+    color: white;
+    font-size: 2.8em;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 25px;
+}
+
+.btn-veg,.btn-nveg{
+	background-color: #7CFC00;
+	margin: 20px;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border-color: #7CFC00; 
+}
+
+.btn-nveg{
+	background-color: #FF0000;
+	border-color: #FF0000;
+}
+
+.btn-login{
+	font-size: 1em;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.itemEntity{
+	border-radius: 2px;
+	border:1px solid black;
+}
+
+h4{
+	margin-left: 20px;
+}
+
+h5,p{
+	text-align: right;
+}
+
+#itemList div{
+	text-align: left;
+}
+
+#itemList{
+	padding-top: 50px;
+}
+
+#itemList .heading,.cartHeading{
+	font-size: 1.5em;
+	color: deeppink;
+}
+
+#itemList .descr{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
+
+#itemList .price{
+	font-size: 1.2em;
+}
+
+.plusBtn,.minusBtn{
+	background: #0079ae;
+	border-radius: 5px;
+    margin: -3px 0 0 10px;
+    width: 40px;
+    height: 30px;
+    color: #fff;
+}
+
+.minusBtn{
+	margin: -3px 10px 0 10px;
+}
+
+.textbox input{
+	width: 20px;
+	margin-top: 2px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+#centerButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -140px;
+    width: 100px;
+    height: 100px;
+}
+
+.centerBtn{
+	padding: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: none;
+	color: white;
+	border: 3px solid white;
+	font-weight: bold;
+	font-size: 2em; font-family: 'Wendy One', sans-serif;"
+}
+
+.centerBtn:hover{
+	color: white;
+	font-style: italic;
+}

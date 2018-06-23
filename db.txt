@@ -1,0 +1,78 @@
+create table sample (id int AUTO_INCREMENT PRIMARY KEY,price int,name varchar(255),vnv int, category varchar(255),content varchar(255));
+
+insert into sample values(1,49,"Garlic Breadsticks",0,"Appetisers","The endearing tang of garlic in breadstics baked to perfection.");
+
+insert into sample values(2,129,"Stuffed Garlic Bread",0,"Appetisers","Freshly Baked Garlic Bread stuffed with mozzarella cheese, sweet corns & tangy and spicy jalapeños");
+
+create table items (id int AUTO_INCREMENT PRIMARY KEY,price int,name varchar(255),vnv int, category varchar(255),content varchar(255), image varchar(255));
+
+insert into items values(1,49,"Garlic Breadsticks",0,"Appetisers","The endearing tang of garlic in breadstics baked to perfection.", "Images/garlicbreadsticks.jpg");
+
+insert into items values(2,129,"Stuffed Garlic Bread",0,"Appetisers","Freshly Baked Garlic Bread stuffed with mozzarella cheese, sweet corns & tangy and spicy jalapeños","Images/stuffedgarlic.jpg");
+
+insert into items values(3,89,"Brownie with Vanilla Icecream",0,"Deserts","Ultra moist, chocolaty brownie topped with vanilla icecream and choco syrup","Images/brownie.jpg");
+
+insert into items values(4,79,"Burger Pizza",0,"Pizza_Exotic","Goodness of burger and pizza in one package","Images/burgerpizza.jpg");
+
+insert into items values(5,110,"Chicken Conizza",1,"Conizza","Tender chicken with molten mozarella and cheddar cheese in a cone","Images/chickenconizza.jpg");
+
+insert into items values(6,220,"Chicken Jalapeno Pizza",1,"Pizza_Classic","Chicken and jalapeno blended smoothly to make the perfect pizza with love","Images/chickenjalapeno.jpg");
+
+insert into items values(7,115,"Chicken Pasta",1,"Salads_and_Pastas","Alfonso sauce with penne and chicken","Images/chickenpasta.jpg");
+
+insert into items values(8,125,"Chicken Salad",1,"Salads_and_Pastas","Tender chicken with fresh herbs and veggies","Images/chickensalad.jpeg");
+
+insert into items values(9,325,"Chicken Tikka Pizza",1,"Pizza_Flavors_of_India","Desi Chicken Tikka with endearing mozarella cheese and soft crust","Images/chickentikkapizza.jpg");
+
+insert into items values(10,69,"Chicken Tikki",1,"Appetisers","Shallow fried chicken with crispy outer layer","Images/chickentikki.jpg");
+
+insert into items values(11,49,"Choco Lava Cake",0,"Deserts","Soft outer layer with hot molten chocolate inside","Images/chocolavacake.jpg");
+
+insert into items values(12,30,"Coke",0,"Beverages","The one and only Coca-cola","Images/coke.jpg");
+
+insert into items values(13,35,"Diet Coke",0,"Beverages","Coca-cola with less calories","Images/dietcoke.jpg");
+
+insert into items values(14,195,"Jalapeno Pizza",0,"Pizza_Classic","Fine pizza with pickled jalapenos","Images/jalapenopizza.jpg");
+
+insert into items values(15,75,"Oreo Cheesecake",0,"Deserts","Goodness of oreo with chilled cheesecake","Images/oreocheesecake.jpg");
+
+insert into items values(16,235,"Paneer Tikka Pizza",0,"Pizza_Classic","Desi tangy paneer tikka with mozarella and pimento cheese","Images/paneertikkapizza.jpg");
+
+insert into items values(17,119,"Grilled Panini Pizza",0,"Pizza_Exotic","Panini with stuffed veggies and cheese outside","Images/paninipizza.jpg");
+
+insert into items values(18,49,"Peanut butter Brownie",0,"Deserts","Perfect peanut brownie which soothes the taste buds","Images/peanutbrownie.jpg");
+
+insert into items values(19,30,"Pepsi",0,"Beverages","Yeh youngistan meri jaan","Images/pepsi.jpg");
+
+insert into items values(20,119,"Pizza Sandwich",0,"Sandwizza","Greatness of Sandwich and pizza together","Images/pizzasandwich.jpg");
+
+insert into items values(21,119,"Tuna Pizza Sandwich",1,"Sandwizza","Greatness of Sandwich and pizza together with tangy tuna fish","Images/pizzasandwich.jpg");
+
+insert into items values(22,295,"Pizza Supreme Veg",0,"Pizza_Classic","The king of all pizzas. Jalapenos, capsicum, onion, mushroom, olives.","Images/pizzasupreme.jpg");
+
+insert into items values(23,315,"Pizza Supreme Non-Veg",1,"Pizza_Classic","The king of all pizzas. Chicken, Jalapenos, capsicum, onion, mushroom, olives.","Images/pizzasupreme.jpg");
+
+insert into items values(24,115,"Red Sauce Pasta", 0 ,"Salads_and_Pastas","Rich flavour of red sauce with carefully cooked macroni","Images/redsaucepasta.jpg");
+
+insert into items values(25,195,"Salami Pizza",1,"Pizza_Classic","Richness of chicken salami cooked in it's own right.","Images/salamipizza.jpg");
+
+insert into items values(26,30,"Sprite",0,"Beverages","Chill yourself with sprite","Images/sprite.jpg");
+
+insert into items values(27,75,"Strawberry mousse",0,"Deserts","Soft mousse with real strawberry","Images/strawberrymousse.jpg");
+
+insert into items values(28,99,"Veg Conizza",0,"Conizza","Goodness of pizza stuffed in a cone.","Images/vegconizza.jpg");
+
+insert into items values(29,115,"White Sauce Pasta", 0 ,"Salads_and_Pastas","Creamy alfonso sauce with carefully cooked macroni","Images/whitesaucepasta.jpg");
+
+insert into items values(29,125,"Veg salad", 0 ,"Salads_and_Pastas","Fresh veggies with exotic herbs","Images/vegsalad.jpg");
+
+insert into items values(30,159,"Grilled Chicken Panini Pizza",0,"Pizza_Exotic","Panini with stuffed veggies and cheese outside and tender chicken","Images/paninipizza.jpg");
+
+insert into items values(31,119,"Taco Pizza",0,"Pizza_Exotic","Taco and pizza in one package","Images/paninipizza.jpg");
+
+insert into items values(32, 59,"Veg nuggets",0,"Appetisers","Soft cheesy inner with crispy outer.", "Images/vegnuggets.jpg");
+
+insert into items values(33, 79,"Chicken nuggets",1,"Appetisers","Soft cheesy chicken inner with crispy outer.", "Images/vegnuggets.jpg");
+
+insert into items values(35,49,"White forest cake",0,"Deserts","White whipped cream with chocolate layers","Images/whiteforest.jpg");
+

@@ -1,0 +1,37 @@
+<web-app>
+	<servlet>
+		<servlet-name>itemController</servlet-name>
+		<servlet-class>itemController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemController</servlet-name>
+		<url-pattern>/fetch</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>initialise</servlet-name>
+		<servlet-class>initialise</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>initialise</servlet-name>
+		<url-pattern>/initialise</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cookieAdder</servlet-name>
+		<servlet-class>cookieAdder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cookieAdder</servlet-name>
+		<url-pattern>/cookie</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cartController</servlet-name>
+		<servlet-class>cartController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cartController</servlet-name>
+		<url-pattern>/cart</url-pattern>
+	</servlet-mapping>
+</web-app>
